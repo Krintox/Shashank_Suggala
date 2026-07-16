@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 400" role="img" aria-label="Playwright regression test automation">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#052e16"/>
+      <stop offset="1" stop-color="#14532d"/>
+    </linearGradient>
+    <linearGradient id="ac3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4ade80"/>
+      <stop offset="1" stop-color="#bbf7d0"/>
+    </linearGradient>
+  </defs>
+  <rect width="620" height="400" fill="url(#bg3)"/>
+  <g font-family="Consolas, Menlo, monospace" font-size="15" fill="#86efac" opacity="0.85">
+    <text x="330" y="230">test('checkout flow', async ({ page }) =&gt; {</text>
+    <text x="350" y="256">await page.goto('/cart');</text>
+    <text x="350" y="282">await expect(total).toHaveText('$40');</text>
+    <text x="330" y="308">});</text>
+  </g>
+  <g>
+    <circle cx="352" cy="130" r="14" fill="none" stroke="#4ade80" stroke-width="3"/>
+    <path d="M345 130 l5 5 l9 -10" stroke="#4ade80" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="402" cy="130" r="14" fill="none" stroke="#4ade80" stroke-width="3"/>
+    <path d="M395 130 l5 5 l9 -10" stroke="#4ade80" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="452" cy="130" r="14" fill="none" stroke="#facc15" stroke-width="3"/>
+    <path d="M452 122 v10" stroke="#facc15" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="452" cy="138" r="1.8" fill="#facc15"/>
+  </g>
+  <text x="60" y="120" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Regression</text>
+  <text x="60" y="168" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Suite</text>
+  <rect x="62" y="188" width="120" height="6" rx="3" fill="url(#ac3)"/>
+  <text x="60" y="226" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#bbf7d0">Playwright Test Automation</text>
+  <text x="60" y="335" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#86efac" opacity="0.95">E2E &#183; CI-triggered regression runs &#183; TypeScript</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 400" role="img" aria-label="RodeCeviewr AI repository assistant">
+  <defs>
+    <linearGradient id="bg5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#334155"/>
+    </linearGradient>
+    <linearGradient id="ac5" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#bae6fd"/>
+    </linearGradient>
+  </defs>
+  <rect width="620" height="400" fill="url(#bg5)"/>
+  <g stroke="#38bdf8" stroke-width="3" fill="none" stroke-opacity="0.8">
+    <path d="M420 90 v60 q0 20 20 20 h40"/>
+    <path d="M420 150 v100"/>
+    <circle cx="420" cy="82" r="10"/>
+    <circle cx="420" cy="258" r="10"/>
+    <circle cx="488" cy="170" r="10"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="15" fill="#7dd3fc" opacity="0.9">
+    <text x="350" y="305">$ git log --oneline | ai review</text>
+    <text x="350" y="330">&#10003; 3 issues explained &#183; fix suggested</text>
+  </g>
+  <text x="60" y="110" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">RodeCeviewr</text>
+  <rect x="62" y="130" width="120" height="6" rx="3" fill="url(#ac5)"/>
+  <text x="60" y="168" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#bae6fd">AI-Powered Repository Assistant</text>
+  <text x="60" y="228" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#7dd3fc" opacity="0.95">RAG pipelines &#183; Commit analysis &#183; Per-repo AI chat</text>
+</svg>

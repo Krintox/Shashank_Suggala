@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 400" role="img" aria-label="Smart grid management system">
+  <defs>
+    <linearGradient id="bg7" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#022c22"/>
+      <stop offset="1" stop-color="#065f46"/>
+    </linearGradient>
+    <linearGradient id="ac7" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#34d399"/>
+      <stop offset="1" stop-color="#a7f3d0"/>
+    </linearGradient>
+  </defs>
+  <rect width="620" height="400" fill="url(#bg7)"/>
+  <path d="M470 70 L430 180 h35 L440 300 L520 165 h-40 L510 70 Z" fill="#34d399" fill-opacity="0.85"/>
+  <g stroke="#6ee7b7" stroke-opacity="0.3" fill="none">
+    <path d="M340 340 h240 M360 300 l30 -30 30 30 30 -30 30 30 30 -30 30 30"/>
+  </g>
+  <text x="60" y="105" font-family="Segoe UI, Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff">Smart Grid</text>
+  <rect x="62" y="125" width="120" height="6" rx="3" fill="url(#ac7)"/>
+  <text x="60" y="163" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#a7f3d0">Energy Management System</text>
+  <text x="60" y="335" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#6ee7b7" opacity="0.95">IoT &#183; Blockchain trading &#183; ML optimization</text>
+</svg>
